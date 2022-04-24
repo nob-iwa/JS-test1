@@ -23,9 +23,9 @@ $(document).ready(function(){
     time += 100;
     timeElement.innerHTML=formatTime(time);
   },100);
-  $("#start").prop("disabled", true);
-  $("#stop").prop("disabled",false);
-  $("#reset").prop("disabled",false);
+  $("#start").prop("disabled", false);
+  $("#stop").prop("disabled", true);
+  $("#reset").prop("disabled", true);
   });
   
   $("#stop").mousedown(function(){
