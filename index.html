@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang = "en">
       <head>
-        <meta charset="utf-8">
-        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
-        <link rel="stylesheet" href="main.css">
+        <meta charset = "utf-8">
+        <script src = "https://code.jquery.com/jquery-3.2.1.js" integrity = "sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin = "anonymous"></script>  
+        <link rel = "stylesheet" href = "main.css">
         <title>ストップウォッチ</title>
       </head>
  
       <body>
-        <h3 id="title">ストップウォッチ</h3>
-        <div id="time">0:0:0:0</div>
-        <div>
-          <button type="button" id="start">スタート</button>
-          <button type="button" id="stop" disabled>ストップ</button>
-          <button type="button" id="reset" disabled>リセット</button>
-        </div>
+        <h3 id = "title">ストップウォッチ</h3>
+        <div id = "time">00:00:00:00</div><br>
+        <button type = "button" id = "start" onclick = "clickbutton(this)">スタート</button>
+        <button type = "button" id = "stop" onclick = "clickbutton(this)" disabled>ストップ</button>
+        <button type = "button" id = "reset" onclick = "clickbutton(this)" disabled>リセット</button>
  
-        <script src="main.js"></script>
+        <script src = "main.js"></script>
       </body>
     </html>
